@@ -24,3 +24,5 @@ const container = document.querySelector('div')
     .then(response => response.json())
     .then(data => ghibliStudio(data))
     .catch(err => console.error(err.message));
+
+
