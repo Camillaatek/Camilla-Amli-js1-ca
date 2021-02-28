@@ -12,13 +12,12 @@ const container = document.querySelector('div')
         <a href="./details.html?id=${i.id}"</ul>
     <ul>
     <h2>${i.title}</h2>
-    <p>Director: ${i.director}</p>
-    <p>Description: ${i.description}</p>
+    
+    
     </ul>`;
         container.innerHTML += nyFilm;
     };
-    
-  };
+};
 
  fetch(url)
     .then(response => response.json())
